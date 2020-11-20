@@ -1,0 +1,17 @@
+프로젝트 페이지 : https://github.com/chov-dev/auto-dignoser
+
+프로그램의 원활한 구동을 위해선 반드시 파이썬 (3.8버전 이상), 크롬, 셀레니움이 필요합니다.
+
+⚠경고⚠
+파이썬 설치 시 반드시 add python to path 항목을 체크해주셔야 합니다
+
+파이썬 다운(윈도우 64비트 전용) : https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe
+파이썬 다운(윈도우 32비트 전용) : https://www.python.org/ftp/python/3.9.0/python-3.9.0.exe
+
+크롬 설치 : https://www.google.com/intl/ko/chrome/
+
+셀레니움 설치법 :  윈도우 키를 누른 후 cmd 실행, pip install selenium을 입력 (설치가 완료될 때 까지 기다린 후 창을 종료하여 주세요)
+
+제작 : chov.dev
+이메일 : chov.dev@gmail.com
+깃허브 : https://github.com/chov-dev/auto-dignoser
