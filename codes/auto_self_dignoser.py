@@ -40,6 +40,7 @@ while True:
                                      now.hour, now.minute, now.second)
         if act_time - lastDignose >= datetime.timedelta(days=1):
             subprocess.call(['Python', "codes/macro_auto_self_dignose.py"])
-            lastDignose = datetime.datetime.now()
+            lastDignose = datetime.datetime(
+                now.year, now.month, now.day, hourToDignose, minuteToDignose, 0)
             print(spliter+"자가진단 완료 (시각%s)" % datetime.datetime.now())
             break
